@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table tr td{
+            border: 1px solid;
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <form action="/submit" method="post">
+            <tr>
+                <td colspan="2" style="text-align: center;">Sign In</td>
+            </tr>
+            <tr>
+                <td><lable for="email">E-mail Address</lable></td>
+                <td>
+                 <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td><lable for="pass">Password</lable></td>
+                <td>
+                    <input type="password" name="pass" id="pass">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="submit" style="margin-left: 100px;">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

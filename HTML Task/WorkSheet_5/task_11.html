@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(95, 95, 218);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+      }
+      form{
+        background-color: rgb(9, 9, 51);
+        width: 400px;
+        color: white;
+        padding: 20px;
+        display: inline-block;
+        text-align: left;
+      }
+      .inputClass{
+        height: 20px;
+        width: 100%;
+      }
+      select {
+        width: 100%;
+        padding: 5px;
+      }
+      textarea{width: 100%;}
+    </style>
+  </head>
+  <body>
+    <h1 style="color: white">Amman Coding Academy Survey Form</h1>
+    <p style="color: white">Thank You For Taking The Time to help</p>
+    <form action="/submit" method="post">
+      <lable for="fname">Name</lable><br>
+      <input type="text" name="fname" id="fname" placeholder="Name" class="inputClass"/><br /><br />
+      <lable for="email">Email</lable><br>
+      <input type="text" name="email" id="email" placeholder="Email" class="inputClass" /><br /><br />
+      <label for="age">Age (optional)</label><br>
+      <input type="text" name="age" id="age" placeholder="Age" class="inputClass"/><br /><br />
+      <label for="like">How Did You Like My Survey?</label><br /><br />
+
+      <select id="like">
+        select
+
+        <option value="How Did You Like My Survey?">
+          How Did You Like My Survey?
+        </option>
+        <option value="Good">Good</option>
+        <option value="bad">bad</option>
+      </select>
+      <p>Wolud You Recommend my pen to a friend</p>
+      <input type="radio" name="def" id="def" value="def" />
+      <label for="def">Definitly</label><br /><br />
+      <input type="radio" name="maybe" id="maybe" value="maybe" />
+      <label for="maybe">Maybe</label><br /><br />
+      <input type="radio" name="notsure" id="notsure" value="notsure" />
+      <label for="notsure">Not Sure</label><br /><br />
+      <label for="like">Lorem ipsum dolor sit amet consectetur.</label><br /><br />
+
+      <select id="like">
+        select
+
+        <option value="How Did You Like My Survey?">
+          Select An Option
+        </option>
+        <option value="Good">Good</option>
+        <option value="bad">bad</option>
+      </select>
+      <br /><br />
+      <p>Wolud You Recommend my pen to a friend</p>
+      <input type="checkbox" name="def" id="def" value="def" />
+      <label for="def">Definitly</label><br /><br />
+      <input type="checkbox" name="maybe" id="maybe" value="maybe" />
+      <label for="maybe">Maybe</label><br /><br />
+      <input type="checkbox" name="notsure" id="notsure" value="notsure" />
+      <label for="notsure">Not Sure</label><br /><br />
+       <lable for="comments">Any Comments?</lable><br><br>
+       <textarea name="comments" id="comments" rows="3" cols="40"></textarea>
+       <br><br>
+      <input type="submit" value="submit" class="inputClass" style="height: 40px; background-color: green; color: white;" />
+    </form>
+  </body>
+</html>

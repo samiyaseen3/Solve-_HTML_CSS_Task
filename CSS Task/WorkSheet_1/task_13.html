@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table tr td{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <form action="/submit" method="post">
+        <tr>
+            <td colspan="2" style="text-align: center;" ;><h1 style="color: red;background-color:bisque;">Registration Form</h1></td>
+        </tr>
+        <tr style="background-color: lightblue;">
+            <td><label for="name">Enter Name</label></td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr style="background-color: lightblue;">
+            <td><label for="pass">Enter Password</label></td>
+            <td><input type="password" name="pass" id="pass"></td>
+        </tr>
+        <tr style="background-color: lightblue;">
+            <td><label for="address">Enter address</label></td>
+            <td><textarea name="address" id="address" rows="4"></textarea></td>
+        </tr>
+        <tr style="background-color: lightblue;">
+            <td>Select Game</td>
+            <td>
+                <input type="checkbox" name="game" id="game" value="Hocky">
+                <label for="game">Hocky</label>
+                <br>
+                <input type="checkbox" name="game" id="game" value="Football">
+                <label for="game">Football</label>
+                <br>
+                <input type="checkbox" name="game" id="game" value="badminton">
+                <label for="game">badminton</label>
+                <br>
+                <input type="checkbox" name="game" id="game" value="Crickt">
+                <label for="game">Crickt</label>
+                <br>
+                <input type="checkbox" name="game" id="game" value="vollyball">
+                <label for="game">vollyball</label>
+            
+            </td>
+        </tr>
+        <tr style="background-color: lightblue;">
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender" id="gender" value="male">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" value="female">
+                <label for="gender">female</label>
+            </td>
+        </tr>
+        <tr style="background-color: lightblue;">
+            <td><label for="age">Select ur age</label></td>
+            <td>
+                <select id="age"> select
+                    <option value="selcet">Selecet</option>
+                   <option value="18">18</option>
+                   <option value="19">19</option>
+                   <option value="20">20</option>
+                   <option value="21">21</option>
+                </select>
+            </td>
+        </tr>
+        <tr style="background-color: lightblue;">
+            <td>selcet photo</td>
+            <td>
+                <input type="file" name="file" id="file">
+            </td>
+        </tr>
+        <tr style="background-color: lightblue;">
+            <td colspan="2">
+                <input type="submit" value="Click Me">
+                <input type="submit" value="Clear">
+                <input type="submit" value="Submit Form">
+            </td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>

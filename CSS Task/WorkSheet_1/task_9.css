@@ -1,0 +1,32 @@
+.CSS-Selector{
+    color: chartreuse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.u{
+    color: lightblue;
+}
+#id-selector{
+    background-color: aqua;
+    color: green;
+}
+.background-div{
+    background-color: lightblue;
+}
+.div1{
+color: red;
+}
+.div2{
+    color: red;
+}
+.div3{
+color: blue;
+}
+.background-div2{
+    background-color: lightsalmon;
+}
+.odd{
+    color: darkblue;
+}
+.even{
+    color: brown;
+}

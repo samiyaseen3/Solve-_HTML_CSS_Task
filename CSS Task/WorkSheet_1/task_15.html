@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cat{
+            color: red;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .img{
+            border:green 40px solid;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="cat">CatPhotoApp</h2>
+    <p style="color: red;">Click Here To Show More<a href="#"> cat photos</a></p>
+    <img src="cat.jpg" alt="cat" class="img"/>
+    <div style="background-color: gray;">
+       <p>things cat love:</p>
+       <ul>
+        <li>cat nip</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+       </ul>
+       <p>top three things cat hates</p>
+       <ol>
+        <li>Lorem.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum dolor.</li>
+       </ol>
+    </div>
+    <div style="background-color: green;">
+        <form action="/submit" method="post">
+            <input type="radio" name="indoor" id="indoor" value="indoor">
+            <label for="indoor">Indoor</label>
+            <input type="radio" name="outdoor" id="outdoor" value="outdoor">
+            <label for="outdoor">Outdoor</label><br><br>
+            <input type="checkbox" name="Loving" id="Loving" value="Loving">
+            <label for="Loving">Loving</label>
+            <input type="checkbox" name="Lazy" id="Lazy" value="Lazy">
+            <label for="Lazy">Lazy</label>
+            <input type="checkbox" name="Energitc" id="Energitc" value="Energitc">
+            <label for="Energitc">Energitc</label><br><br>
+            <input type="text" name="url" id="url" placeholder="cat photo URL">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>

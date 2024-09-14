@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            background-color: blanchedalmond;
+            border: 3px solid black;
+            width: 400px;
+            text-align: center;
+        }
+        .contact{
+            background-color: brown;
+            text-align: center;
+            
+            
+            
+        }
+        .contact h1{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .submit{
+            background-color: darkorange;
+            padding: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="/submit" method="post" class="form">
+        <div>
+       <div class="contact">
+        <h1>Contact Us!</h1>
+       </div>
+       <div class="input">
+         <input type="text" name="name" id="name" placeholder="Name..."><br><br>
+         <input type="email" name="email" id="email" placeholder="email..."><br><br>
+         <input type="text" name="subject" id="subject" placeholder="subject..."><br><br>
+         <textarea rows="4" cols="30" placeholder="Message..."></textarea>
+       </div>
+       <div>
+            <input type="submit" value="Send Meassge!!" class="submit">
+       </div>
+    </div>
+    </form>
+</body>
+</html>
