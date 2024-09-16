@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        li{
+            list-style-type: none;
+        }
+        .nav{
+            display: flex;
+            gap: 10px;
+            justify-content:space-between;
+        }
+        .nav-1{
+            display: flex;
+            gap: 10px;
+        }
+        .nav-2{
+            display: flex;
+            gap: 10px;
+        }
+          section{
+            margin-top: 170px;
+            display: flex;
+            justify-content: center;
+          }
+          .search{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+          }
+          .input-text input{
+            width: 300px;
+            border-radius: 20px;
+          }
+          .buttons{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+
+          }
+          .button{
+            background-color:rgb(223, 223, 223);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 130px;
+            height: 30px;
+            border-radius: 7px;
+            text-align: center;
+            font-size: 12px;
+          }
+          footer{
+            margin-top: 150px;
+            background-color:rgb(223, 223, 223);
+            height: 60px;
+          }
+          .nav-footer{
+            display: flex;
+            gap: 10px;
+            justify-content:space-between;
+        }
+        .nav-1-footer{
+            display: flex;
+            margin-top: 20px;
+            gap: 10px;
+        }
+        .nav-2-footer{
+            display: flex;
+            margin-top: 20px;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <hr>
+        <div class="nav">
+            <div class="nav-1">
+               <li><a href="">About</a></li>
+               <li><a href="">Store</a></li>
+            </div>
+            <div class="nav-2">
+                <li><a href="">Profile</a></li>
+                <li><a href="">Settings</a></li>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="search">
+            <div class="img">
+              <img src="web_app.png" alt="web app"/>
+            </div>
+            <div class="input-text">
+               <input type="text" name="search" id="search">
+            </div>
+            <div class="buttons">
+                <div class="button">
+               <a href="#" >Do the thing! </a>
+            </div>
+            <div class="button">
+                <a href="#">Do the other thing!</a>
+             </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+       <div class="nav-footer">
+        <div class="nav-1-footer">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+        </div>
+        <div class="nav-2-footer">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </div>
+       </div>
+    </footer>
+</body>
+</html>
